@@ -33,7 +33,7 @@
 
 # INPUT
 
-
+```
 /* program name is lexp.l */
 %{
 /* program to recognize a C program */ int COMMENT = 0;
@@ -76,13 +76,15 @@ int main(int argc, char **argv) {
 int yywrap() {
 	return 0;
 }
+```
+```
 var c
 #include <stdio.h>
 int main(){
 	int a,b;
 	return 0;
 }
-
+```
 
 # OUTPUT
 ![image](https://github.com/user-attachments/assets/48f37879-2042-4f0f-83cf-2c5e448c5f64)
