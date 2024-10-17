@@ -77,8 +77,8 @@ int yywrap() {
 	return 0;
 }
 ```
-```
 var c
+```
 #include <stdio.h>
 int main(){
 	int a,b;
